@@ -9,6 +9,7 @@ for (Account acc:LA){
     updatedLA.add(acc);
 }
 if(!updatedLA.isempty()){
-    update updatedLA;
+    update updatedLA;  
+    system.debug('updatedLA'+updatedLA);
 }
 }
